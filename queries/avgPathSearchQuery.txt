@@ -38,7 +38,6 @@ SELECT (max(?intpath) as ?maxpath)  WHERE {
                            path:exportBinding ?pred .
                     SERVICE <urn:path> {
                         VALUES ?pred {ex:associates ex:participates ex:downregulates ex:binds ex:associates ex:covaries ex:expresses ex:interacts ex:upregulates ex:includes ex:localizes ex:treats ex:palliates ex:resembles ex:causes ex:presents}
-                    #ex:downregulates ex:treats ex:binds ex:associates ex:covaries ex:expresses ex:interacts ex:participates ex:resembles ex:upregulates ex:includes ex:palliates ex:localizes ex:presents ex:causes 
                     ?start ?pred ?end . 
                     }  
             }
